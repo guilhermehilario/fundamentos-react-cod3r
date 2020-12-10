@@ -1,0 +1,29 @@
+.tableContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: px solid #7a7;
+}
+
+.productTable {
+    background-color: #efe;
+    empty-cells: show;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.productTable th, .productTable td {
+    text-align: center;
+    padding-right: .5em;
+    border: 2px solid #fff;
+}
+
+.productTable th {
+    font-weight: bold;
+    padding-left: .5em;
+    background-color: #7a7;
+}
+
+.productTable .Par {
+    background-color: #ddd;
+}
